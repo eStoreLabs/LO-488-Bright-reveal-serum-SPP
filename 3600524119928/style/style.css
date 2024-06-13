@@ -545,6 +545,17 @@
   padding: 32px 16px;
 }
 
+#es-loreal.es-loreal .es-slider__slide1__text {
+  font-family: inherit;
+  font-weight: inherit;
+  font-weight: 300;
+  text-align: center;
+  text-transform: none;
+}
+#es-loreal.es-loreal .es-slider__slide1__text--purple {
+  color: purple;
+}
+
 #es-loreal.es-loreal .es-slider__title span {
   display: block;
   color: var(--color-white);
@@ -1493,8 +1504,8 @@
     position: absolute;
     bottom: -25%;
     right: -4%;
-    width: 220px;
-    height: 220px;
+    width: 170px;
+    height: 170px;
     background-image: url('../images/beads-1.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -1949,4 +1960,84 @@
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
+}
+
+#es-loreal.es-loreal .slick-button-prev {
+  position: absolute;
+  bottom: -11%;
+  left: 37%;
+  cursor: pointer;
+}
+#es-loreal.es-loreal .slick-button-next {
+  position: absolute;
+  bottom: -11%;
+  right: 37%;
+  cursor: pointer;
+}
+#es-loreal.es-loreal .slick-button-2-prev {
+  position: absolute;
+  top: 35%;
+  left: -3%;
+  cursor: pointer;
+}
+#es-loreal.es-loreal .slick-button-2-next {
+  position: absolute;
+  top: 35%;
+  right: -3%;
+  cursor: pointer;
+}
+#es-loreal.es-loreal .slick-pagination-2 {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+#es-loreal.es-loreal .slick-dots {
+  position: absolute;
+  display: flex;
+  gap: 0 4px;
+  padding: 0;
+  margin: 0;
+  bottom: -10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#es-loreal.es-loreal .es-slick-carousel-2 .slick-dots {
+  bottom: -7%;
+}
+
+#es-loreal.es-loreal .es-slider2__content {
+  position: relative;
+}
+#es-loreal.es-loreal .slick-dots li {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid black;
+  opacity: 1;
+}
+#es-loreal.es-loreal .slick-dots li:not(:last-child) {
+  margin-right: 6px;
+}
+#es-loreal.es-loreal .slick-dots li.slick-active {
+  background: #000000;
+}
+#es-loreal.es-loreal .slick-dots li button {
+  display: none;
+}
+#es-loreal.es-loreal .slick-slide {
+  opacity: 0.7;
+}
+#es-loreal.es-loreal .slick-current {
+  opacity: 1;
+}
+#es-loreal.es-loreal .slick-list {
+  /* overflow: visible; */
+}
+#es-loreal.es-loreal .slick-arrow.slick-disabled {
+  display: none !important;
 }
